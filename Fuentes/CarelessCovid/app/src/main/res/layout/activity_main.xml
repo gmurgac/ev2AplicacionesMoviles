@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nombreUsuarioTxt"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="@dimen/tamanioLetra1"
+        ></TextView>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/nombreUsuario_EdTxt"
+        android:background="@color/divider"
+        android:textAlignment="center"
+        android:inputType="phone"
+        ></EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contraseñaTxt"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="@dimen/tamanioLetra1"
+        ></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/password_EdTxt"
+        android:inputType="numberPassword"
+        android:background="@color/divider"
+        android:textAlignment="center"
+
+        ></EditText>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/registrarTextbtn"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/iniciarSesion_btn"
+        ></Button>
+</LinearLayout>

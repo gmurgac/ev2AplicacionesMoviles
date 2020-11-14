@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VerPacienteActivity"
+    >
+    <include layout="@layout/toolbar"></include>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rut"
+                android:textSize="@dimen/tamanioLetra1"
+                android:layout_margin="@dimen/marginTvVerExamen"
+
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rut_paciente_tv"
+                android:textAlignment="center"
+                android:textSize="@dimen/tamanioLetraVerExamen"
+                android:textColor="@color/primary_text"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre y Apellido"
+                android:layout_margin="@dimen/marginTvVerExamen"
+                android:textSize="@dimen/tamanioLetra1"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nombre_paciente_tv"
+                android:textAlignment="center"
+                android:textSize="@dimen/tamanioLetraVerExamen"
+                android:textColor="@color/primary_text"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fecha del Exámen"
+                android:layout_margin="@dimen/marginTvVerExamen"
+                android:textSize="@dimen/tamanioLetra1"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fecha_examen_tv"
+                android:textSize="@dimen/tamanioLetraVerExamen"
+                android:textAlignment="center"
+                android:textColor="@color/primary_text"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Area de trabajo"
+                android:layout_margin="@dimen/marginTvVerExamen"
+                android:textSize="@dimen/tamanioLetra1"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/area_trabajo_tv"
+                android:textAlignment="center"
+                android:textSize="@dimen/tamanioLetraVerExamen"
+                android:textColor="@color/primary_text"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Presenta Sintomas de covid?"
+                android:textSize="@dimen/tamanioLetra1"
+                android:layout_margin="@dimen/marginTvVerExamen"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sintomas_tv"
+                android:textSize="@dimen/tamanioLetraVerExamen"
+                android:textAlignment="center"
+                android:textColor="@color/primary_text"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Presenta tos?"
+                android:textSize="@dimen/tamanioLetra1"
+                android:layout_margin="@dimen/marginTvVerExamen"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tos_tv"
+                android:textSize="@dimen/tamanioLetraVerExamen"
+                android:textAlignment="center"
+                android:textColor="@color/primary_text"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Temperatura"
+                android:textSize="@dimen/tamanioLetra1"
+                android:layout_margin="@dimen/marginTvVerExamen"
+
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/temperatura_tv"
+                android:textAlignment="center"
+                android:textSize="@dimen/tamanioLetraVerExamen"
+                android:textColor="@color/primary_text"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Presion Arterial"
+                android:textSize="@dimen/tamanioLetra1"
+                android:layout_margin="@dimen/marginTvVerExamen"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/presion_tv"
+                android:textAlignment="center"
+                android:textSize="@dimen/tamanioLetraVerExamen"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/primary_text"
+                ></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

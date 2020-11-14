@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icono_dimen">70dp</dimen>
+    <dimen name="tamanioLetra1">17sp</dimen>
+    <dimen name="paddingCamposRegistro">17dp</dimen>
+    <dimen name="tamanioLetraBtn">26</dimen>
+    <dimen name="paddinBtnRegistrar">10dp</dimen>
+    <dimen name="tamanioLetraVerExamen">20sp</dimen>
+    <dimen name="marginTvVerExamen">10dp</dimen>
+    <dimen name="marginBottomFB">47dp</dimen>
+    <dimen name="marginRightFB">17dp</dimen>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PrincipalActivity">
+    <include layout="@layout/toolbar"
+        android:id="@+id/idToolbarEnPrincipal"></include>
+
+    <ListView
+        android:layout_below="@id/idToolbarEnPrincipal"
+        android:id="@+id/examenes_pacientes_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        ></ListView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/ic_baseline_person_add_24"
+        android:id="@+id/agregar_paciente_fbtn"
+        app:elevation="4dp"
+        android:layout_marginRight="@dimen/marginRightFB"
+        android:layout_marginBottom="@dimen/marginBottomFB"
+        ></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+
+
+</RelativeLayout>
