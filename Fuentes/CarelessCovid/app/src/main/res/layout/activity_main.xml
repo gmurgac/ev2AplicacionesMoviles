@@ -34,7 +34,7 @@
         android:text="@string/contraseñaTxt"
         android:layout_gravity="center"
         android:gravity="center"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="@dimen/margen_top_tv_mainAct"
         android:textSize="@dimen/tamanioLetra1"
         ></TextView>
     <EditText
@@ -48,7 +48,7 @@
         ></EditText>
 
     <Button
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="@dimen/margen_top_btn_mainAct"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:text="@string/registrarTextbtn"

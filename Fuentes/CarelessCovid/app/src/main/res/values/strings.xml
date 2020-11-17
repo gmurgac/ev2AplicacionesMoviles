@@ -3,4 +3,18 @@
     <string name="contraseñaTxt">Contraseña</string>
     <string name="nombreUsuarioTxt">Nombre de Usuario</string>
     <string name="registrarTextbtn">Iniciar Sesion</string>
+    <string name="nombre_tv_principal">Nombre</string>
+    <string name="apellido_tv_reg_pac">Apellido</string>
+    <string name="fecha_ex_men">Fecha Exámen</string>
+    <string name="rea_de_trabajo">Área de trabajo</string>
+    <string name="presenta_s_ntomas_de_covid">¿Presenta Síntomas de covid?</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="si_textOn_Sw">Si</string>
+    <string name="text_off_sw">No</string>
+    <string name="presenta_tos">¿Presenta Tos?</string>
+    <string name="presi_n_arterial">Presión Arterial</string>
+    <string name="registrar">REGISTRAR</string>
+    <string name="rut">Rut</string>
+    <string name="nombre_y_apellido">Nombre y Apellido</string>
+    <string name="fecha_del_ex_men">Fecha del Exámen</string>
 </resources>

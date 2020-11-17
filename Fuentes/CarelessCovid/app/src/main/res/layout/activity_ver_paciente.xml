@@ -22,7 +22,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Rut"
+                android:text="@string/rut"
                 android:textSize="@dimen/tamanioLetra1"
                 android:layout_margin="@dimen/marginTvVerExamen"
 
@@ -38,7 +38,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nombre y Apellido"
+                android:text="@string/nombre_y_apellido"
                 android:layout_margin="@dimen/marginTvVerExamen"
                 android:textSize="@dimen/tamanioLetra1"
                 ></TextView>
@@ -53,7 +53,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Fecha del Exámen"
+                android:text="@string/fecha_del_ex_men"
                 android:layout_margin="@dimen/marginTvVerExamen"
                 android:textSize="@dimen/tamanioLetra1"
                 ></TextView>
@@ -68,7 +68,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Area de trabajo"
+                android:text="@string/rea_de_trabajo"
                 android:layout_margin="@dimen/marginTvVerExamen"
                 android:textSize="@dimen/tamanioLetra1"
                 ></TextView>
@@ -83,7 +83,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Presenta Sintomas de covid?"
+                android:text="@string/presenta_s_ntomas_de_covid"
                 android:textSize="@dimen/tamanioLetra1"
                 android:layout_margin="@dimen/marginTvVerExamen"
                 ></TextView>
@@ -98,7 +98,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Presenta tos?"
+                android:text="@string/presenta_tos"
                 android:textSize="@dimen/tamanioLetra1"
                 android:layout_margin="@dimen/marginTvVerExamen"
                 ></TextView>
@@ -113,7 +113,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Temperatura"
+                android:text="@string/temperatura"
                 android:textSize="@dimen/tamanioLetra1"
                 android:layout_margin="@dimen/marginTvVerExamen"
 
@@ -129,7 +129,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Presion Arterial"
+                android:text="@string/presi_n_arterial"
                 android:textSize="@dimen/tamanioLetra1"
                 android:layout_margin="@dimen/marginTvVerExamen"
                 ></TextView>

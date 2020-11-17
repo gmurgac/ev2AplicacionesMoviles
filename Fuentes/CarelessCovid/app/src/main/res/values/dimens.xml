@@ -9,4 +9,8 @@
     <dimen name="marginTvVerExamen">10dp</dimen>
     <dimen name="marginBottomFB">47dp</dimen>
     <dimen name="marginRightFB">17dp</dimen>
+    <dimen name="elevacion_float_btn">4dp</dimen>
+    <dimen name="margen_top_tv_mainAct">15dp</dimen>
+    <dimen name="margen_top_btn_mainAct">30dp</dimen>
+    <dimen name="max_chars_edit_text">20</dimen>
 </resources>

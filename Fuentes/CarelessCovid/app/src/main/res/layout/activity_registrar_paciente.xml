@@ -48,7 +48,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Nombre"
+                    android:text="@string/nombre_tv_principal"
                     android:layout_weight="3"
                     android:textSize="@dimen/tamanioLetra1"
                     ></TextView>
@@ -59,6 +59,7 @@
                     android:layout_weight="1"
                     android:id="@+id/nombre_edit_text"
                     android:inputType="textCapSentences"
+                    android:maxLength="20"
                     android:digits="ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz"
                     ></EditText>
             </LinearLayout>
@@ -71,7 +72,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Apellido"
+                    android:text="@string/apellido_tv_reg_pac"
                     android:layout_weight="3"
                     android:textSize="@dimen/tamanioLetra1"
                     ></TextView>
@@ -83,6 +84,7 @@
                     android:id="@+id/apellido_edit_txt"
                     android:inputType="textCapSentences"
                     android:maxLines="1"
+                    android:maxLength="20"
                     ></EditText>
             </LinearLayout>
 
@@ -95,7 +97,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Fecha Exámen"
+                    android:text="@string/fecha_ex_men"
                     android:layout_weight="1"
                     android:textSize="@dimen/tamanioLetra1"
                     ></TextView>
@@ -120,7 +122,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Área de trabajo"
+                    android:text="@string/rea_de_trabajo"
 
                     android:textSize="@dimen/tamanioLetra1"
                     android:textAlignment="textEnd"
@@ -141,7 +143,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="¿Presenta Síntomas de covid?"
+                    android:text="@string/presenta_s_ntomas_de_covid"
                     android:layout_weight="1"
                     android:textAlignment="textEnd"
                     android:textSize="@dimen/tamanioLetra1"
@@ -151,8 +153,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="3"
                     android:id="@+id/sintomas_sw"
-                    android:textOn="Si"
-                    android:textOff="No"
+                    android:textOn="@string/si_textOn_Sw"
+                    android:textOff="@string/text_off_sw"
                     android:showText="true"
                     ></Switch>
             </LinearLayout>
@@ -165,7 +167,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Temperatura"
+                    android:text="@string/temperatura"
                     android:layout_weight="1"
                     android:textSize="@dimen/tamanioLetra1"
                     android:textAlignment="textEnd"
@@ -176,6 +178,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="3"
                     android:id="@+id/temperatura_registro"
+                    android:maxLength="20"
                     ></EditText>
             </LinearLayout>
 
@@ -187,7 +190,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="¿Presenta Tos?"
+                    android:text="@string/presenta_tos"
                     android:layout_weight="1"
                     android:textAlignment="textEnd"
                     android:textSize="@dimen/tamanioLetra1"
@@ -197,8 +200,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="3"
                     android:id="@+id/tos_sw"
-                    android:textOn="Si"
-                    android:textOff="No"
+                    android:textOn="@string/si_textOn_Sw"
+                    android:textOff="@string/text_off_sw"
                     android:showText="true"
                     ></Switch>
             </LinearLayout>
@@ -211,7 +214,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Presión Arterial"
+                    android:text="@string/presi_n_arterial"
                     android:layout_weight="1"
                     android:textSize="@dimen/tamanioLetra1"
                     android:textAlignment="textEnd"
@@ -222,6 +225,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="3"
                     android:id="@+id/presion_registro"
+                    android:maxLength="4"
                     ></EditText>
             </LinearLayout>
 
@@ -230,7 +234,7 @@
                 android:id="@+id/registrar_paciente_btn"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:text="REGISTRAR"
+                android:text="@string/registrar"
                 android:padding="@dimen/paddinBtnRegistrar"
                 android:layout_margin="20dp"
                 ></Button>

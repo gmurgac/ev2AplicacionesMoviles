@@ -24,9 +24,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_gravity="end|bottom"
-        android:src="@drawable/ic_baseline_person_add_24"
+        android:src="@drawable/ic_baseline_post_add_24"
         android:id="@+id/agregar_paciente_fbtn"
-        app:elevation="4dp"
+        app:elevation="@dimen/elevacion_float_btn"
         android:layout_marginRight="@dimen/marginRightFB"
         android:layout_marginBottom="@dimen/marginBottomFB"
         ></com.google.android.material.floatingactionbutton.FloatingActionButton>
